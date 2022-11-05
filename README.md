@@ -29,7 +29,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Product Name Screen Shot](img/RockPaperScissorsLizardSpock.png)
+![Product Name Screen Shot](RockPaperScissorsLizardSpock.png)
 
 The app is created to enable Rock Pape rScissors Lizard Spock game that is well-known thanks to the TV series 'The Big Bang Theory'. The rules are quite simple: 
     Scissors cuts Paper
