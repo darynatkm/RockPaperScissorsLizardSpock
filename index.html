@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spock Rock Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+</head>
+<body onload="resetAll()">
+<script src="script.js" type="text/javascript"></script>
+    <div class="container">
+    <div class="titleBlock"><h1>Rock Paper Scissors Lizard Spock</h1></div>
+    <div class="playerBlock" id="player">
+        <h2>You - <span id="playerScore"></span><span class="choice" id="playerChoice"></span></h2>
+        <div class="choices">
+            <i class="far fa-hand-rock" title="Rock" id="playerrock" onclick="select('rock')"></i>
+            <i class="far fa-hand-paper" title="Paper" id="playerpaper" onclick="select('paper')"></i>
+            <i class="far fa-hand-scissors" title="Scissors" id="playerscissors" onclick="select('scissors')"></i>
+            <i class="far fa-hand-lizard" title="Lizard" id="playerlizard" onclick="select('lizard')"></i>
+            <i class="far fa-hand-spock" title="Spock" id="playerspock" onclick="select('spock')"></i>
+        </div>
+    </div>
+    <div class="computerBlock" id="computer">
+        <h2>Computer - <span id="computerScore"></span><span class="choice" id="computerChoice"></span></h2>
+        <div class="choices">
+            <i class="far fa-hand-rock" title="Rock" id="computerrock"></i>
+            <i class="far fa-hand-paper" title="Paper" id="computerpaper"></i>
+            <i class="far fa-hand-scissors" title="Scissors" id="computerscissors"></i>
+            <i class="far fa-hand-lizard" title="Lizard" id="computerlizard"></i>
+            <i class="far fa-hand-spock" title="Spock" id="computerspock"></i>
+        </div>
+    </div>
+    <i class="fas fa-sync-alt reset-icon" title="Reset" onclick="resetAll()"></i>
+    <h3 id="result"></h3>
+</div>
+</body>
+</html>
