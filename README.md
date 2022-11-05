@@ -32,17 +32,18 @@
 ![Product Name Screen Shot](spockRockGame.png)
 
 The app is created to enable Rock Pape rScissors Lizard Spock game that is well-known thanks to the TV series 'The Big Bang Theory'. The rules are quite simple: 
-    Scissors cuts Paper
-    Paper covers Rock
-    Rock crushes Lizard
-    Lizard poisons Spock
-    Spock smashes Scissors
-    Scissors decapitates Lizard
-    Lizard eats Paper
-    Paper disproves Spock
-    Spock vaporizes Rock
-    (and as it always has) Rock crushes Scissors
-
+<li>
+    <ul>Scissors cuts Paper</ul>
+    <ul>Paper covers Rock</ul>
+    <ul>Rock crushes Lizard</ul>
+    <ul>Lizard poisons Spock</ul>
+    <ul>Spock smashes Scissors</ul>
+    <ul>Scissors decapitates Lizard</ul>
+    <ul>Lizard eats Paper</ul>
+    <ul>Paper disproves Spock</ul>
+    <ul>Spock vaporizes Rock</ul>    
+    <ul>(and as it always has) Rock crushes Scissors</ul> 
+</li>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
